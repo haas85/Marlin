@@ -11,8 +11,8 @@ cd $WORKSPACE
 #rm -rf $ARDUINO
 #mkdir $ARDUINO
 
-cd $FW_DIR
-git log -1 --pretty="%H" > $WWW_DIR/commit.built
+# cd $FW_DIR
+# git log -1 --pretty="%H" > $WWW_DIR/commit.built
 cd $WORKSPACE
 
 #cd $ARDUINO

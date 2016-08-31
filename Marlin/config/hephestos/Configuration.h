@@ -473,8 +473,13 @@ const bool Z_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the logic 
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E
 
 // default settings
+<<<<<<< HEAD
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.62, 78.73, 4000,100.47095761381482}  // default steps per unit for Ultimaker
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {78.62, 78.73, 4000,93,933206445}  // default steps per unit for Ultimaker
+=======
+
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.62, 78.73, 3919.65,100.47095761381482}  // default steps per unit for Ultimaker
+>>>>>>> origin/master
 #define DEFAULT_MAX_ACCELERATION      {1100,1100,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
 #ifndef PREFER_MAX_SPEED

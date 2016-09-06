@@ -1,4 +1,4 @@
-bin/
+Marlin/bin/
 .config_lang
 .config_mach
 *.o

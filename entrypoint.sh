@@ -25,6 +25,8 @@ LANG_FILE="$CONFIG_DIR_DEST/Language_texts.h"
 CONF_FILE="$CONFIG_DIR_DEST/Configuration.h"
 IFS=","
 
+rm -rf $CONFIG_DIR_DEST/bin
+
 ###########################################
 # Iterate over selected hardware variants #
 ###########################################

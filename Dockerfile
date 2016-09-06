@@ -1,6 +1,7 @@
 FROM ubuntu:14.04.3
 
 RUN apt-get update && apt-get install -y make gcc-avr=1:4.8-2.1 avr-libc=1:1.8.0-4.1
+RUN mkdir -p /usr/src/build
 WORKDIR /usr/src/myapp
 
 ENV LANGUAGE_CHOICE='ES'
@@ -14,4 +15,4 @@ ENV CONFIG_DIR='/usr/src/myapp/Marlin/config'
 
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +rx /entrypoint.sh
-#ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
